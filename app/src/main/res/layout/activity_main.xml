@@ -8,5 +8,9 @@
     android:layout_height="match_parent"
     app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
     tools:context=".MainActivity"
-    tools:listitem="@layout/list_motor" />
+    tools:listitem="@layout/list_motor"
+
+
+    />
+
 
