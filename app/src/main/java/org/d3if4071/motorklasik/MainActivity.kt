@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
             Motortua("rc 100", "Suzuki", R.drawable.rc100),
             Motortua("win 100", "Honda", R.drawable.win100),
             Motortua("c70", "Honda", R.drawable.c70),
-            Motortua("astrea bulus", "Honda", R.drawable.astrea),
+            Motortua("astrea", "Honda", R.drawable.astrea),
             Motortua("vespa", "Piagio", R.drawable.vespa),
             Motortua("v80", "Yamaha", R.drawable.v80),
             Motortua("a 100", "Suzuki", R.drawable.a100),
