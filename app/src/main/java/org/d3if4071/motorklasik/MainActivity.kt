@@ -1,8 +1,13 @@
 package org.d3if4071.motorklasik
 
+import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.AttributeSet
 import android.util.Log
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.RecyclerView
 import org.d3if4071.motorklasik.databinding.ActivityMainBinding
@@ -21,6 +26,9 @@ class MainActivity : AppCompatActivity() {
             setHasFixedSize(true)
         }
     }
+
+
+
     private fun getData(): List<Motortua> {
         return listOf(
             Motortua("cb 100", "Honda", R.drawable.cb100),

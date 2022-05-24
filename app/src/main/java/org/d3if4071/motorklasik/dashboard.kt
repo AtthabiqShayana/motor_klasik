@@ -13,10 +13,10 @@ private const val ARG_PARAM2 = "param2"
 
 /**
  * A simple [Fragment] subclass.
- * Use the [JualBeli.newInstance] factory method to
+ * Use the [dashboard.newInstance] factory method to
  * create an instance of this fragment.
  */
-class JualBeli : Fragment() {
+class dashboard : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -34,7 +34,7 @@ class JualBeli : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_jual_beli, container, false)
+        return inflater.inflate(R.layout.fragment_dashboard, container, false)
     }
 
     companion object {
@@ -44,12 +44,12 @@ class JualBeli : Fragment() {
          *
          * @param param1 Parameter 1.
          * @param param2 Parameter 2.
-         * @return A new instance of fragment JualBeli.
+         * @return A new instance of fragment dashboard.
          */
         // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
-            JualBeli().apply {
+            dashboard().apply {
                 arguments = Bundle().apply {
                     putString(ARG_PARAM1, param1)
                     putString(ARG_PARAM2, param2)

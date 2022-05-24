@@ -11,18 +11,25 @@
         android:label="activity_main"
         tools:layout="@layout/activity_main" />
     <fragment
-        android:id="@+id/informasimotor"
-        android:name="org.d3if4071.motorklasik.informasimotor"
-        android:label="fragment_informasimotor"
-        tools:layout="@layout/fragment_informasimotor" />
-    <fragment
-        android:id="@+id/about"
-        android:name="org.d3if4071.motorklasik.About"
+        android:id="@+id/about2"
+        android:name="org.d3if4071.motorklasik.ui.about"
         android:label="fragment_about"
         tools:layout="@layout/fragment_about" />
     <fragment
-        android:id="@+id/jualBeli"
-        android:name="org.d3if4071.motorklasik.JualBeli"
-        android:label="fragment_jual_beli"
-        tools:layout="@layout/fragment_jual_beli" />
+        android:id="@+id/dashboard2"
+        android:name="org.d3if4071.motorklasik.dashboard"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_dashboard2_to_about2"
+            app:destination="@id/about2" />
+        <action
+            android:id="@+id/action_dashboard2_to_market2"
+            app:destination="@id/market2" />
+    </fragment>
+    <fragment
+        android:id="@+id/market2"
+        android:name="org.d3if4071.motorklasik.market"
+        android:label="fragment_market"
+        tools:layout="@layout/fragment_market" />
 </navigation>
